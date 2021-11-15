@@ -41,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9534AB502742A7F90048C48F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				95EBC457263AB028002AFA83 /* AppDelegate.swift */,
+				95EBC459263AB028002AFA83 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		95EBC44B263AB028002AFA83 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +69,7 @@
 		95EBC456263AB028002AFA83 /* ByteCoinPrices */ = {
 			isa = PBXGroup;
 			children = (
-				95EBC457263AB028002AFA83 /* AppDelegate.swift */,
-				95EBC459263AB028002AFA83 /* SceneDelegate.swift */,
+				9534AB502742A7F90048C48F /* App */,
 				95EBC46C263AB03F002AFA83 /* Model */,
 				95EBC46B263AB033002AFA83 /* Controller */,
 				95EBC46F263AB095002AFA83 /* View */,
