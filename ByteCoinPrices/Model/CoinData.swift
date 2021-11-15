@@ -8,8 +8,6 @@
 
 import Foundation
 
-//MARK: - Created for decoding data and take Bitcoin rate(price)
-
 struct CoinData: Codable{
     var rate: Double
 }

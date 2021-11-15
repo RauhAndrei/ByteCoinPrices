@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgD-KB-Vja">
-                                <rect key="frame" x="0.0" y="646" width="0.0" height="216"/>
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
                             </pickerView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y3P-6H-GaQ">
                                 <rect key="frame" x="10" y="146" width="394" height="50"/>

@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        coinManager.delegate = self // For using uploadDataToUI & didFailWithError
-        //MARK: - For using pickerView mehods
+        coinManager.delegate = self
         currencyPicker.dataSource = self
         currencyPicker.delegate = self
     }
@@ -33,7 +32,8 @@ extension ViewController: UIPickerViewDataSource {
         return 1
     }
     
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    func pickerView(_ pickerView: UIPickerView,
+                    numberOfRowsInComponent component: Int) -> Int {
         return coinManager.currencyArray.count
     }
 }
@@ -42,11 +42,15 @@ extension ViewController: UIPickerViewDataSource {
 //MARK: - UIPickerViewDelegate
 extension ViewController: UIPickerViewDelegate {
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    func pickerView(_ pickerView: UIPickerView,
+                    titleForRow row: Int,
+                    forComponent component: Int) -> String? {
         return coinManager.currencyArray[row]
     }
     
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    func pickerView(_ pickerView: UIPickerView,
+                    didSelectRow row: Int,
+                    inComponent component: Int) {
         let selectedCurrency = coinManager.currencyArray[row]
         coinManager.getCoinPrice(for: selectedCurrency)
     }
