@@ -74,7 +74,6 @@
 				95EBC46B263AB033002AFA83 /* Controller */,
 				95EBC46F263AB095002AFA83 /* View */,
 				95EBC460263AB02E002AFA83 /* Assets.xcassets */,
-				95EBC462263AB02E002AFA83 /* LaunchScreen.storyboard */,
 				95EBC465263AB02E002AFA83 /* Info.plist */,
 			);
 			path = ByteCoinPrices;
@@ -101,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				95EBC45D263AB028002AFA83 /* Main.storyboard */,
+				95EBC462263AB02E002AFA83 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
